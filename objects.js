@@ -191,9 +191,3 @@ function func17(obj, val) {
 }
 
 // console.log(func17({ a: 1, b: 2 }, "c"));
-
-/**
- * 18. Write a JavaScript function to check whether a given value is a DOM element.
- */
-
-console.log(Object.nodeType);
