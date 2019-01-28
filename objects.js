@@ -123,7 +123,7 @@ function func8() {
 // func8();
 
 /**
- * 10.Write a JavaScript program to sort an array of JavaScript objects.
+ * 10. Write a JavaScript program to sort an array of JavaScript objects.
 Sample Object :
 
 var library = [
@@ -181,3 +181,19 @@ function func10(obj, key) {
 }
 
 // console.log(func10(library, "libraryID"));
+
+/**
+ * 17. Write a JavaScript function to check if an object contains given property.
+ */
+
+function func17(obj, val) {
+  return obj.hasOwnProperty(val);
+}
+
+// console.log(func17({ a: 1, b: 2 }, "c"));
+
+/**
+ * 18. Write a JavaScript function to check whether a given value is a DOM element.
+ */
+
+console.log(Object.nodeType);
